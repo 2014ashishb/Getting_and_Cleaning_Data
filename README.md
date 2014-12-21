@@ -10,5 +10,9 @@ Unzip the source (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2
 Change the variable “a” in the code to the location of UCI HAR Dataset folder
 
 In RStudio run the run_analysis.R file
+
+Code produces "data_set_with_the_averages.txt" file
+
+
 Use data <- read.table("data_set_with_the_averages.txt") to read the data. It is 180x68 because there are 30 subjects and 6 activities, thus "for each activity and each subject" means 30 * 6 = 180 rows. 
 
